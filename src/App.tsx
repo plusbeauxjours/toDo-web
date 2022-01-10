@@ -72,7 +72,7 @@ function App() {
     <>
       <GlobalStyle />
       <ToDoList />
-      <ToDoListPractice />
+      {/* <ToDoListPractice /> */}
     </>
   );
 }
