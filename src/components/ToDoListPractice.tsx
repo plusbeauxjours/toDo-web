@@ -1,7 +1,7 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 
-// function ToDoList() {
+// function ToDoListPractice() {
 //   const [toDo, setToDo] = useState("");
 
 //   const onChange = (event: React.FormEvent<HTMLInputElement>) => {
@@ -36,7 +36,7 @@ interface IForm {
   extraError?: string;
 }
 
-function ToDoList() {
+function ToDoListPractice() {
   const {
     register,
     handleSubmit,
@@ -121,4 +121,4 @@ function ToDoList() {
   );
 }
 
-export default ToDoList;
+export default ToDoListPractice;
